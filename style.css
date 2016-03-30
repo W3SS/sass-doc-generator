@@ -1,0 +1,36 @@
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+	color: black;
+	background: #f0f0f0;
+}
+
+.documentation-wrapper {
+	width: 80%;
+	margin: 60px auto;
+	background: white;
+	padding: 60px;
+	box-shadow: 0 14px 25px -10px rgba(0, 0, 0, 0.2);
+}
+
+.doc-content {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #f0f0f0;
+	padding-bottom: 20px;
+}
+
+.doc-content:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.doc-content h2 {
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 0.5em
+}
+
+.doc-content:hover h2 {
+	color: #289AEE;
+}
