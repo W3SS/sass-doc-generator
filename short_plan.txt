@@ -1,4 +1,0 @@
-1. read all scss files.
-2. For each file parse each line for @doc
-3. Find the first class after @doc (starts with .<className>)
-4. Output the result to new html file

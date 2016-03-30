@@ -5,13 +5,15 @@ import os
 class Doc_Builder:
 	input_content_raw = []
 	output_content = []
+	output_file = ''
 
-	def __init__(self, input_content_raw = []):
+	def __init__(self, input_content_raw = [], file_name = 'sass_documentation.html'):
 		self.input_content_raw = input_content_raw
+		self.output_file = file_name
 		self.build_html()
 
 	def build_html(self):
-		file = open('sass_documentation.html', 'w')
+		file = open(self.output_file, 'w')
 
 		# The data thats gathered fromt he Sass_Parser class
 		html_content = self.generate_content()
