@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/xavortm/sass-doc-generator.git"
   },
+  "dependencies": [
+    "python-shell": "0.4.0"
+  ],
   "keywords": [
     "sass",
     "python",
