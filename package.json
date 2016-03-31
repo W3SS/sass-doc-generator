@@ -1,10 +1,10 @@
 {
   "name": "sass-doc-generator",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "Python script to generate Sass class documentation based on @doc tags in the sass file comments.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
